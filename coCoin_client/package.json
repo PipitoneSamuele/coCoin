@@ -1,5 +1,5 @@
 {
-  "name": "co-coin-server",
+  "name": "co-coin-client",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",

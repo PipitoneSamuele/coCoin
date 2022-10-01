@@ -1,0 +1,39 @@
+#centerContainer {
+    margin-left: 35%;
+    margin-right: 35%;
+    align-items: center;
+}
+
+img {
+    height: 25%;
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#description {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: -3%;
+    margin-bottom: 5%;
+}
+
+#descriptionHeader {
+    margin-top: 5%;    
+    margin-left: 25%;
+    margin-right: 25%;
+    font-weight: 600;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+

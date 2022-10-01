@@ -1,0 +1,23 @@
+<div>
+    <ul *ngFor="let coin of coinList">
+
+        <li id="centerContainer" >
+
+            <div class="mx-auto" *ngIf="!isLast(coin.id)">
+                <h2>{{coin.title}}</h2>
+                <img src="{{coin.imageUrl}}">
+                <p id="descriptionHeader">Descrizione: </p>
+                <p id="description">{{coin.description}}</p>
+                <hr/>
+            </div>
+
+            <div class="mx-auto" *ngIf="isLast(coin.id)">
+                <h2>{{coin.title}}</h2>
+                <img src="{{coin.imageUrl}}">
+                <p id="descriptionHeader">Descrizione: </p>
+                <p id="description">{{coin.description}}</p>
+            </div>
+            
+        </li>
+    </ul>
+</div>

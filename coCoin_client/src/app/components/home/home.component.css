@@ -1,0 +1,28 @@
+.banner {
+    background-image: url('../../../img/home.jpg');
+    height: 636px;
+    background-position: center bottom;
+    background-size: cover;
+}
+.left-container h1 {
+    color: var(--primary-color);
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.left-container {
+    position: absolute;
+    top: 15%;
+    left: 78%;
+}
+.left-container a {
+    text-decoration: none;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 14px 18px;
+    font-weight: 600;
+    border-radius: 13px;
+}
+.left-container a:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
